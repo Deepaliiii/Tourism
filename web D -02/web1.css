@@ -1,0 +1,64 @@
+*{
+margin:0px;}
+body
+{
+background:url("dal4.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+background-position:center; 
+height:100px;
+
+}
+ul
+{
+float:left;
+margin-top:25px;
+margin-left:=-10%;
+
+}
+ul li{
+display : inline-block;
+}
+ul li a{
+text-decoration : none;
+color:black;
+padding : 5px 20px;
+border: 2px solid transparent;
+transition : 0.8s ease;
+}
+ul li a:hover
+{
+background-color:white;
+color:black;}
+ul li.active a{
+background-color:#fff;
+color:#000;
+}
+.logo img
+{
+float:right;
+margin-top:0px;
+width:210px;
+height:auto;}
+
+ins{
+position:absolute;
+top:-5%;
+left:37%;
+transform:translateY(300px);
+color:white;
+font-size:3rem;}
+@media screen and (max-width:320px)
+{
+.title ins{
+top:30%;
+left:25%;
+}
+}
+
+
+
+
+
+
+

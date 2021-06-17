@@ -1,0 +1,42 @@
+*{background-color:transparent;
+margin-top:0px;
+margin-left:0px;
+margin-right:0px;
+}
+.table-box
+{
+margin-left:190px;
+
+}
+.table-row
+{
+display:table;
+width:88%;
+margin-top:10px;
+padding:8px 0;
+color:black;
+font-size:14px;
+box-shadow:0 3px 4px 0 rgba(0,0,50,0.3);
+}
+.table-cell
+{
+display:table-cell;
+width:10%;
+text-align:center;
+padding:4px;
+border-right:2px solid #d6d4d4;
+vertical-align:middle;
+}
+.table-head{
+background:#6495ED;
+color:#fff;
+
+}
+.table-head.table-cell
+{
+border-right:none;}
+.last-cell{
+border-right:none;}
+.table-head2{
+background:white;
+color:black;}
